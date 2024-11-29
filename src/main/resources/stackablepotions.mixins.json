@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.leclowndu93150.stackablepotions.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BrewingStandMenuMixin",
+    "ItemsMixin",
+    "PotionItemMixin",
+    "SplashPotionItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
